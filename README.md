@@ -1,5 +1,4 @@
 
-![2020-07-07_18-34-59]
 
 # Bootcamp Launchbase :rocket:
 
