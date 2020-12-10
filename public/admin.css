@@ -1,0 +1,178 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+:root {
+    --color-background: rgb(30,30,36);
+    --color-back: rgb(246,126,125);
+    --color-light: rgb(255,185,151);
+    --color-white: #FFF8F0;
+}
+main{
+    padding: 50px;
+}
+main .form.add {
+    margin: auto;
+    display: grid;
+    grid-template-columns: min-content;
+    max-width: 940px;
+    
+}
+
+.topo {
+    max-width: 940px;
+    display: flex;
+    justify-content: space-between;   
+    margin: auto;
+    color: var(--color-back);
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+}
+
+.formulario {
+    max-width: 940px;
+    display: grid;
+    margin: auto;
+}
+
+main input{
+    height: 30px;
+    margin-top: 5px;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: var(--color-white);
+    width: 100%;
+}
+
+main label {
+    margin-bottom: 0px;
+    margin-top: 30px;
+    color: var(--color-back);
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 20px;
+    letter-spacing: 1px;
+    font-family: 'Roboto', sans-serif;
+}
+main a {
+    margin-top: 5px;
+    text-decoration: none;
+    color: var(--color-light);
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 24px;
+    letter-spacing: 1px;
+}
+
+main a:hover{
+    color: var(--color-back);
+}
+
+.formulario .infor {
+    height: 250px;
+}
+main input.anexo{
+    height: 30px;
+    margin-top: 5px;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: var(--color-white);
+    color: var(--color-background);
+    font-size: 14px;
+    
+}
+
+.add.form .buttons {
+    justify-self: end;
+}
+
+.add.form button {
+    width: 130px;
+    height: 40px;
+    background-color:  var(--color-back);
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: bold;
+    font-family:'Roboto', sans-serif ;
+    color: var(--color-background);
+    margin: 20px 0px 10px 10px; 
+    justify-self: end;
+    cursor: pointer;
+}
+
+.add.form button:hover {
+    background-color: var(--color-light);
+}
+
+/* ADMIN */
+main {
+    max-width: 940px;
+    margin: auto;
+}
+
+main h1 {
+    color: var(--color-back);
+}
+main .receitas-admin {
+    margin-top: 30px;
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+    gap: 20px;
+}
+
+main .receitas-admin h3 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+    color:var(--color-white);
+    line-height: 30px;
+    margin-bottom: 20px;
+}
+
+.card-admin {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+
+.card-admin img {
+    width: 200px;
+    height: 100px;
+    border-radius: 10px;
+    object-fit: cover;
+   
+}
+
+.card-admin .info {
+    height: 120px;
+    align-self: center;
+}
+
+.card-admin a{
+   color: var(--color-light);
+   cursor: pointer;
+}
+.card-admin p {
+    margin-top: 2px;
+    margin-bottom: 5px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+    color: var(--color-light);
+    line-height: 16px;
+}
+
+.card-admin .title {
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    color:var(--color-back);
+    line-height: 22px;
+    
+}
+
+.add-ingredient, .add-preparations {
+    cursor: pointer;
+} 

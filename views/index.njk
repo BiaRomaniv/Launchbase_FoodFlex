@@ -1,0 +1,29 @@
+{% extends "layout.njk" %} 
+
+{% block content %}
+<main>
+    <div class="top">
+        <div class="text">
+            <h2>Receitas Flexíveis</h2>
+            <p> Aprenda a cozinhar os melhores pratos com receitas fit sem frescuras, para que você comece a ter resultados agora mesmo!</p>
+        </div>
+        <div class="image">
+            <img src="/assets/119236-OQ05QX-268.png" alt="">
+        </div>
+    </div>
+
+    <div class="receitas">
+        {% for item in items %}
+        <div class="cards">
+            <div class="card" id={{item.id}}>
+                <img src={{item.image}} alt={{item.title}}>
+                <p class="tittle"> {{item.title}}</p>
+                
+            </div>
+        </div>
+        {% endfor %}
+    </div>
+</main>
+
+
+{% endblock %}

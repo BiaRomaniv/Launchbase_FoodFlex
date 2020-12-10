@@ -1,0 +1,126 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+:root {
+    --color-background: rgb(30,30,36);
+    --color-back: rgb(246,126,125);
+    --color-light: rgb(255,185,151);
+    --color-white: #FFF8F0;
+}
+
+header {
+     height: 41px;
+}
+
+body {
+    max-width: 940px;
+    margin: auto;
+    background-color: var(--color-background);
+}
+
+
+/* RECEITA DETALHE */
+
+.receitas_detalhe {
+    margin: 20px auto;
+    max-width: 800px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+ a {
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    color: var(--color-back);
+    line-height: 24px;
+    text-decoration: none;
+    font-weight: bold;
+    
+}
+.card-detalhe p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    color: #444444;
+    line-height: 24px;
+    
+}
+
+.card-detalhe img {
+    position: relative;
+    margin: 20px auto;
+    border-radius: 10px;
+    width: 100%;
+    height: 250px;  
+    box-shadow: 1px 0px 3px var(--color-back);
+    object-fit: cover;
+}
+
+.card-detalhe h1 p {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 0;
+    font-size: 32px;
+    line-height: 42px;
+    color: var(--color-back);
+    font-family: 'Roboto', sans-serif;
+}
+
+.card-detalhe .criador {
+    text-align: center;
+    margin-top: 4px;
+    margin-bottom: 10px;
+    color: var(--color-light);
+    font-size: 16px;
+    line-height: 22px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.card-detalhe h3 p {
+    margin-top: 30px;
+    margin-bottom: 10px;
+    font-size: 20px;
+    color: var(--color-back);
+    line-height: 28px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.card-detalhe .text  {
+    font-size: 16px;
+    color: var(--color-light);
+    line-height: 26px;
+    font-family: 'Roboto', sans-serif;
+    text-align: justify;
+}
+
+/* EDITAR */ 
+
+.receitas_detalhe.edit{
+    display: block;
+}
+.receitas_detalhe .topo {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+
+.receitas_detalhe .topo h1 {
+    color: var(--color-back);
+    font-family: 'Roboto', sans-serif;
+    font-size: 22px;
+    line-height: 32px;
+    
+}
+
+.receitas_detalhe .topo a {
+    background-color: var(--color-back);
+    padding: 10px;
+    font-size: 15px;
+    font-weight: bold;
+    color: var(--color-background);
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: 'Roboto', sans-serif;
+}

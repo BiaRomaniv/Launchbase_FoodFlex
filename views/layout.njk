@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
+    
+    
+    
+    {% block head %}
+    <link rel="stylesheet" href="admin.css">
+    <link rel="stylesheet" href="styles.css">
+    <title> Food Flex</title>
+    {% endblock %}
+</head>
+
+<header>
+    <h3> <a href="/">Food Flex</a> </h3>
+    <div class="links">
+        <a href="/sobre">Saiba Mais</a>
+        <a href="/receitas">Receitas</a>
+        <a href="/admin">Administração</a>
+    </div>
+
+</header>
+
+<body>
+    {% block content %} {% endblock %}
+
+    <footer>
+       
+        <div class="dev">
+             <p>Desenvolvido por<a href="https://github.com/BiaRomaniv">Bia Romaniv </a></p>
+            
+        </div>
+
+    </footer>
+</body>
+<script src="/scripts.js"></script>
+
+</html>

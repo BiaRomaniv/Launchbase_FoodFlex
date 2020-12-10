@@ -1,0 +1,37 @@
+{% extends "layout.njk" %}
+{% block head %}
+         <link rel="stylesheet" href="styles.css">
+        <link rel="stylesheet" href="admin.css">
+
+        <title> Criar Receita</title>
+{% endblock %} 
+{% block content%}
+    <main>
+        
+        <h1>Gerenciar Receitas</h1>
+        <a href="/add">Adicionar Nova Receita</a>
+        <div class="receitas-admin">
+            
+            {% for item in items %}
+            <div class="cards admin">
+                <div class="card-admin" id={{item.id}}>
+                    <div>
+                        <img src={{item.image}} alt={{item.title}}>
+                    </div>
+                    <div class="info">
+                        <p class="tittle"> {{item.title}}</p>
+                        
+                        <a >Visualizar</a>
+                        
+                    </div>
+                </div>
+                
+            </div>
+            {% endfor %}
+        </div>
+
+
+    </main>
+
+
+{% endblock %}

@@ -1,0 +1,49 @@
+{% extends "layout.njk" %}
+    {% block head %}
+        <link rel="stylesheet" href="styles.css">
+        <link rel="stylesheet" href="admin.css">
+        <title> Criar Receita</title>
+    {% endblock %} 
+
+{% block content %}
+    <main class="add form">
+        <form method="POST" class="add" action="/">            
+                <a href="/admin">Voltar</a>
+                <div class="topo">
+                    
+                    <h3>Criando receita</h3>
+                   
+                </div>
+                <div class="formulario">
+                    <label for="title">Título</label>
+                    <input class="title" type="text" name="title" value="{{recipes.title}}" placeholder="Insira o título da sua receita" >
+
+                    <label for="imagem">Imagem da receita</label>
+                    <input class="anexo" type="url" name="image" value="{{ recipes.image }}" placeholder="Comece com http://">
+
+                    <label for="ingredients">Ingredientes</label>
+                    <div id="ingredients">
+                        <div class="ingredient">
+                            <input type="text" name="ingredients[]" value="{{ recipes.ingredients }}" placeholder="Insira os ingredientes" />
+                        </div>
+                    </div>
+                        <a class="add-ingredient">Adicionar ingredientes</a>
+
+                    <label for="preparo">Modo de preparo</label>
+                    <div id="preparation">
+                        <div class="preparations">
+                            <input type="text" placeholder="Adicione passo de preparo" name="preparation" value="{{recipes.preparation}}">
+                        </div>                       
+                    </div>
+                        <a class="add-preparations" >Adicionar novo passo</a>
+
+                    <label for="info">Informações adicionais</label>
+                    <input class="infor" type="text" name="information" value="{{recipes.information}}" >
+
+                    <button type="submit">Salvar</button>
+                </div>
+        </form>        
+    </main>
+
+
+{% endblock %}

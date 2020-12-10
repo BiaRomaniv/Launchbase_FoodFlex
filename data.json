@@ -1,0 +1,44 @@
+{
+  "recipes": [
+    {
+      "id": "2",
+      "title": "Crepioca de Chocolate",
+      "image": "data:image/jpeg;base64,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",
+      "ingredients": [
+        "2 ovos , 1 colher (sopa) de tapioca,1 colher (sopa) de chocolate 70% (ou cacau)"
+      ],
+      "preparation": "Em um recipiente limpo, bata ligeiramente os ovos,Adicione o chocolate e a tapioca, misture bem até ficar homogêneo,Aqueça uma frigideira antiaderente ou se necessário unte com manteiga, Despeje a massa cobrindo todo o fundo da forma.,Deixe firmar e doure dos dois lados.,Desligue o fogo e pronto!",
+      "information": "Gramas por Porção: 100 g -  Calorias 140,95 kcal -  MACROS: C 11,80 g /  P 11,12 g / G 4,82 g"
+    },
+    {
+      "id": 3,
+      "title": "Hamburger Proteico",
+      "image": "http://emagrecimentoalfa.com/wp-content/uploads/2019/12/Receita-hamburguer-proteico-768x538.jpeg",
+      "ingredients": [
+        "1 Pão de Hamburger (50g)",
+        "1 Hamburger de Patinho (150g)",
+        "Queijo Minas Frescal Light (30g)",
+        "Alface",
+        "Tomate"
+      ],
+      "preparation": "Monte o sanduiche a seu gosto",
+      "information": "Kcal: 389 - C 25,4g /  P 42,4g / G 12,1g "
+    },
+    {
+      "id": 4,
+      "title": "Pastel de forno",
+      "image": "http://emagrecimentoalfa.com/wp-content/uploads/2019/12/Receita-pastel-de-forno-fit-com-macros-768x398.jpeg",
+      "ingredients": [
+        "1 Massa para Pizza de frigideira integral (50g)",
+        "Peito de frango cozido desfiado (30g)",
+        "Requeijão cremoso forneável light (10g)"
+      ],
+      "preparation": [
+        "Pré aqueça o forno a 180ºC",
+        "Coloque o recheio na massa, dobre-a e com um garfo amasse as pontas juntas para fechar o pastel.",
+        "Coloque o pastel na assadeira e leve ao forno de 20 a 30 minutos."
+      ],
+      "information": "Kcal: 193 - C 26,3g  / P 14,7g / G 3,1g "
+    }
+  ]
+}
