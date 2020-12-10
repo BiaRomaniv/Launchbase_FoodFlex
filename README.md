@@ -1,4 +1,4 @@
-
+![foodflex](https://user-images.githubusercontent.com/66280875/101842137-288c2000-3b26-11eb-9f01-5d3ce610f56d.jpg)
 
 # Bootcamp Launchbase :rocket:
 
@@ -6,7 +6,7 @@
   Desafio proposto para refatorar o site Foodfy e iniciar a implementação do seu servidor.
    
 ## Sobre o desenvolvimento :sweat_drops:
-  O desenvolvimento foi realizado apenas com os conhecimentos adquiridos no Launchbase. 
+  O desenvolvimento foi realizado apenas com os conhecimentos adquiridos no Launchbase. Alterei o nome do site para Food Flex e inclui receitas flexíveis.
     
 ## Sobre o aprendizado :bowtie:
  Em resumo alguns aprendizados durante o desafio:
